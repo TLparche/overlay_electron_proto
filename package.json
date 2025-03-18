@@ -1,10 +1,24 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "protoelectron",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "proto Overlay",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TLparche/overlay_electron_proto.git"
+  },
+  "author": "TLparche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TLparche/overlay_electron_proto/issues"
+  },
+  "homepage": "https://github.com/TLparche/overlay_electron_proto#readme",
+  "devDependencies": {
+    "electron": "^35.0.2"
+  }
 }
